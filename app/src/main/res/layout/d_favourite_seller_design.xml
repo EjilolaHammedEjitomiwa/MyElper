@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:id="@+id/favourite_seller_design_container"
+    android:layout_height="wrap_content">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/favourite_seller_design_profileImage"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/icon_profile_image"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/favourite_seller_design_likeIcon"
+        android:layout_width="30dp"
+        android:src="@drawable/icon_like"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="5dp"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:id="@+id/rating_linear"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/favourite_seller_design_profileImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+   <TextView
+      android:id="@+id/favourite_seller_design_sellerName"
+       android:layout_width="match_parent"
+       android:text="Ejilola Hammed Ejitomiwa"
+       android:textColor="@color/black"
+       android:layout_marginRight="10dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginBottom="10dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/rating_linear"
+       android:layout_marginTop="10dp"
+       android:gravity="center_horizontal"
+       android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

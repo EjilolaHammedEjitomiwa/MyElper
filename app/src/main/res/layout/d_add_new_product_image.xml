@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_margin="3dp"
+        android:id="@+id/add_new_product_design_image"
+        android:layout_width="80dp"
+        android:scaleType="centerCrop"
+        android:background="@color/colorPrimary"
+        android:layout_height="80dp" />
+    <ImageView
+        android:id="@+id/add_new_product_design_iconDelete"
+        android:layout_width="25dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/icon_delete"
+        android:layout_height="25dp" />
+
+</LinearLayout>

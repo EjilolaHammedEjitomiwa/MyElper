@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/viewProduct"
+        android:title="View seller products" />
+
+    <item
+        android:id="@+id/viewService"
+        android:title="View seller service" />
+    <item
+        android:id="@+id/addToFav"
+        android:title="Add seller to favourite " />
+
+    <item
+        android:id="@+id/removeFromFav"
+        android:title="Remove seller from favourite" />
+
+</menu>

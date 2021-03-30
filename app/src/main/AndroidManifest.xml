@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dsceksu.myelper">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND" />
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon"
+        tools:targetApi="n">
+        <activity android:name="com.dsceksu.myelper.activities.BuyMoreAdSlotActivity"></activity>
+        <activity android:name="com.dsceksu.myelper.activities.TransactionDetailsActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.TransactionHistoryActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.AccountBannedActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.SubmitKYCActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.VerifyCodeActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.MessagesActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.PaymentInformationActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.PromoteProductActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.ViewAdsContentActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.SponsoredPostActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.AdsOptionActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.NotificationList" />
+        <activity android:name="com.dsceksu.myelper.activities.MyServiceActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.FavouriteSellerActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.CompletedOrderActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.ServiceReviewActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.OngoingOrderActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.GetStartedActivity" />
+        <activity
+            android:name="com.dsceksu.myelper.activities.PaymentActivity"
+            android:excludeFromRecents="true" />
+        <activity
+            android:name="com.dsceksu.myelper.activities.CartActivity"
+            android:excludeFromRecents="true" />
+        <activity android:name="com.dsceksu.myelper.activities.ServiceDetailsActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.ActiveGig" />
+        <activity android:name="com.dsceksu.myelper.activities.CategoryServiceActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.WishListActivity" />
+        <activity android:name="com.dsceksu.myelper.user_authentication.ForgotPasswordActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.ZoomImageActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.CreatePinActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.AddNewService" />
+        <activity android:name="com.dsceksu.myelper.activities.EditShippingAddress" />
+        <activity android:name="com.dsceksu.myelper.user_authentication.SigninActivity" />
+        <activity android:name="com.dsceksu.myelper.user_authentication.RegistrationActivity" />
+        <activity android:name="com.dsceksu.myelper.user_authentication.VerifyPhoneActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.ChatActivity" />
+        <activity android:name="com.dsceksu.myelper.activities.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dsceksu.myelper.activities.MainActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.amirarcane.lockscreen.activity.EnterPinActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <service
+            android:name="com.dsceksu.myelper.Notifications.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.dsceksu.myelper.Notifications.MyFirebaseInstanceIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

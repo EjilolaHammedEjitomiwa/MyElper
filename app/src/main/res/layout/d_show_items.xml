@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    app:cardElevation="20dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/show_items_image"
+            android:layout_width="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/show_items_text"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/show_items_count"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/deep_green"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+
+        <com.wajahatkarim3.easymoneywidgets.EasyMoneyEditText
+            android:id="@+id/show_items_moneyMade"
+            android:layout_width="wrap_content"
+            android:editable="false"
+            android:visibility="gone"
+            android:enabled="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            app:show_currency = "true"
+            app:show_commas = "true"
+            app:currency_symbol = "N"
+            android:inputType="numberDecimal"
+            android:textColor="@color/deep_green"
+            android:textSize="25sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

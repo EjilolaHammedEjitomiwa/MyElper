@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/home_category_design_image"
+        android:layout_marginBottom="10dp"
+        android:layout_width="35dp"
+        android:src="@drawable/logo"
+        android:layout_height="35dp" />
+    <TextView
+        android:id="@+id/home_category_design_title"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:text="Phones and Tablets"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

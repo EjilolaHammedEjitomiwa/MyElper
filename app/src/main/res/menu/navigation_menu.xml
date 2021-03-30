@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:checkable="true"
+        android:icon="@drawable/icon_home"
+        android:title="Home" />
+
+
+    <item android:title="About MyElper">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:checkable="true"
+                android:icon="@drawable/icon_fav"
+                android:title="About us" />
+            <item
+                android:id="@+id/team"
+                android:checkable="true"
+                android:icon="@drawable/icon_people"
+                android:title="MyElper team" />
+
+        </menu>
+    </item>
+    <item android:title="Tell friends about MyElper">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:checkable="true"
+                android:icon="@drawable/icon_share"
+                android:title="Share MyElper to friends" />
+            <item
+                android:id="@+id/rate"
+                android:checkable="true"
+                android:icon="@drawable/icon_star_filled"
+                android:title="Rate MyElper" />
+
+        </menu>
+    </item>
+
+</menu>

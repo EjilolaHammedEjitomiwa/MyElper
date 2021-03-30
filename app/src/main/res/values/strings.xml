@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyElper</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seller_details">Seller Details</string>
+    <string name="My_Completed_Sales">My Completed Sales</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="My_Completed_Orders">My Completed Orders</string>
+    <string name="lorem_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et risus vitae dolor luctus condimentum. Nunc aliquam porta augue ut euismod. Suspendisse quis accumsan nisl. Suspendisse eu leo nibh. Etiam sed ligula eu est ultricies auctor nec nec lorem. Nulla in nibh tristique, ultrices leo vel, tincidunt urna. Aenean condimentum tincidunt sem nec pharetra. Pellentesque mollis, erat lobortis sagittis aliquam, erat augue accumsan mi, a viverra orci odio vitae dui. Ut ac placerat orci, vel rutrum ligula.
+
+Quisque sit amet odio blandit, fringilla eros a, convallis tellus. Mauris vestibulum nibh sed ex interdum, non pellentesque tellus imperdiet. Maecenas nulla eros, dictum eu accumsan nec, consectetur eget ipsum. Duis ut dolor leo. Donec vulputate sem tristique nisi scelerisque, vitae ultricies nulla finibus. Quisque consectetur placerat lacus. Integer molestie non velit quis tempus.
+
+Quisque non turpis tincidunt, facilisis libero eget, sagittis leo. Suspendisse feugiat lectus a purus condimentum, et auctor leo finibus. Ut tincidunt orci at orci vulputate gravida. Pellentesque rhoncus scelerisque lectus ac congue. Etiam aliquet risus sodales facilisis imperdiet. Aliquam dictum ullamcorper dui, eu condimentum enim luctus dapibus. Curabitur ornare tellus et tempus consequat. Nam interdum velit in quam volutpat finibus. Duis et tellus semper, cursus ligula sed, feugiat tellus. Sed vitae nunc semper nisl scelerisque pulvinar vitae in ligula. Phasellus quis tortor eget eros faucibus pretium id eu dolor. Aliquam consequat nibh nisl, sed rhoncus turpis suscipit eu. Aliquam erat volutpat.</string>
+</resources>

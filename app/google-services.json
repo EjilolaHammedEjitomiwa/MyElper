@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693469930978",
+    "project_id": "myhelper-dsceksu",
+    "storage_bucket": "myhelper-dsceksu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693469930978:android:79c01544ebb68b0e1985bb",
+        "android_client_info": {
+          "package_name": "com.dsceksu.myelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693469930978-mj5vdeomnrl9seckshumidvdt7sgue1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2z8UoTe9aqUThH_RQXeosKUj1yYgw1gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693469930978-mj5vdeomnrl9seckshumidvdt7sgue1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
