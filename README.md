@@ -1,1 +1,3 @@
-# omes
+MyElper is an Application that helps students in our campus to teach others the knowledge they have and earn money from doing it. Over the years because of how crowded classes can be or the inability of lecturers to breakdown concepts or points properly for students to understand, we have now observed that students tends to meet or rely on their fellow student to teach or explain it better. So we brainstormed as a team and decided that we build an Application to help students out with this and also they should also earn from doing this. The most exciting feature of this App is that anyone can render a service or pay for a service, i.e. you can be a seller or a buyer at any point in time. 
+
+This project was built using Firebase firestore, firebase authentication and cloud functions. The next feature that will be added to this project is remote learning feature, that is having people render their service to you from the comfort of your house. 
